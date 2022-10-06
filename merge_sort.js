@@ -9,6 +9,7 @@ try {
 
 } catch (error) {
   console.error(error.message);
+  return
 }
 console.log(fileName, arrayFile)
 
